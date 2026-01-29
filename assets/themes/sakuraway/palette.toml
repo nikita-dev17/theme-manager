@@ -1,0 +1,109 @@
+# sway
+[sway.focused]
+border       = "#E39A8C"
+background   = "#2A2F36"
+text         = "#F2ECE6"
+indicator    = "#D67C6A"
+child_border = "#E39A8C"
+[sway.focused_inactive]
+border       = "#B8A19A"
+background   = "#242930"
+text         = "#D6CEC8"
+indicator    = "#B8A19A"
+child_border = "#B8A19A"
+[sway.unfocused]
+border       = "#8A9199"
+background   = "#1E2329"
+text         = "#AEB5BC"
+indicator    = "#8A9199"
+child_border = "#8A9199"
+[sway.urgent]
+border       = "#D67C6A"
+background   = "#D67C6A"
+text         = "#1E2329"
+indicator    = "#D67C6A"
+child_border = "#D67C6A"
+
+
+# fastfetch
+[fastfetch.logo]
+primary    = "#D7DEE9"
+secondary  = "#C6B4CF"
+[fastfetch.percent]
+green      = "#B9C8BE"
+yellow     = "#CFC6B3"
+red        = "#C7A0A0"
+[fastfetch.key]
+os         = "#CFC6B3"
+kernel     = "#C6B4CF"
+uptime     = "#C6B4CF"
+packages   = "#C7A0A0"
+shell      = "#C7A0A0"
+resolution = "#A8B3C6"
+de         = "#A8B3C6"
+wm         = "#A8B3C6"
+locale     = "#A8B3C6"
+terminal   = "#CFC6B3"
+cpu        = "#B0A6A0"
+gpu        = "#B0A6A0"
+memory     = "#C6B4CF"
+disk       = "#A89090"
+battery    = "#CFC6B3"
+[fastfetch.separator]
+line       = "#E1E6EE"
+
+
+# cava
+[cava.color]
+foreground = '#a8b3c6'
+gradient_color_1 = '#9aa8bf'
+gradient_color_2 = '#a6b1cc'
+gradient_color_3 = '#d6a3bf'
+gradient_color_4 = '#f0c3c3'
+
+
+# kitty
+[kitty]
+cursor = "#E39A8C"
+foreground = "#E8E2DC"
+background = "#1C2127"
+selection_foreground = "#1C2127"
+selection_background = "#E39A8C"
+[kitty.colors]
+color0  = "#161B21"
+color1  = "#D67C6A"
+color2  = "#9FB0A9"
+color3  = "#E39A8C"
+color4  = "#8AA0B8"
+color5  = "#BFA1B2"
+color6  = "#9FB6B8"
+color7  = "#E8E2DC"
+color8  = "#2A2F36"
+color9  = "#E39A8C"
+color10 = "#C8D0CC"
+color11 = "#F2C6B8"
+color12 = "#AFC2DA"
+color13 = "#D8B5C6"
+color14 = "#C2DADB"
+color15 = "#FFF7F2"
+
+
+#waybar
+[waybar.base]
+window_bg = "#1b2024"
+module_bg = "#23292f"
+module_border = "#4b5561"
+
+[waybar.text]
+module_fg = "#e3e7ec"
+muted_fg = "#a8b0ba"
+
+[waybar.workspace]
+wspace_btn_fg = "#9aa3ad"
+wspace_btn_f_bg = "#d8a6b8"
+wspace_btn_f_fg = "#1b2024"
+wspace_btn_hvr_bg = "#2f3740"
+wspace_btn_hvr_fg = "#eef1f4"
+
+[waybar.accent]
+module_hvr = "#2a3139"

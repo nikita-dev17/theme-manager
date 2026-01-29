@@ -1,0 +1,110 @@
+# sway
+[sway.focused]
+border = "#E38CA3"
+background = "#2B1E24"
+text = "#F6E9EE"
+indicator = "#D96C8C"
+child_border = "#E38CA3"
+[sway.focused_inactive]
+border = "#B48A99"
+background = "#24181D"
+text = "#E2CDD5"
+indicator = "#B48A99"
+child_border = "#B48A99"
+[sway.unfocused]
+border = "#7E5E69"
+background = "#1C1418"
+text = "#BFA7B0"
+indicator = "#7E5E69"
+child_border = "#7E5E69"
+[sway.urgent]
+border = "#D96C8C"
+background = "#D96C8C"
+text = "#1C1418"
+indicator = "#D96C8C"
+child_border = "#D96C8C"
+
+
+# fastfetch
+[fastfetch.logo]
+primary = "#E6A3B2"
+secondary = "#C58A95"
+[fastfetch.percent]
+green = "#B7C9A3"
+yellow = "#E8C4A8"
+red = "#C86A7A"
+[fastfetch.key]
+os = "#E8C4A8"
+kernel = "#C58A95"
+uptime = "#C58A95"
+packages = "#D9899A"
+shell = "#D9899A"
+resolution = "#B18BA5"
+de = "#B18BA5"
+wm = "#B18BA5"
+terminal = "#E8C4A8"
+cpu = "#C86A7A"
+gpu = "#C86A7A"
+memory = "#C58A95"
+disk = "#8A5E63"
+battery = "#E8C4A8"
+locale = "#B18BA5"
+[fastfetch.separator]
+line = "#EFD6DB"
+
+
+# cava
+[cava.color]
+foreground = '#ffeae3'
+gradient_color_1 = '#5a2436'
+gradient_color_2 = '#a83e63'
+gradient_color_3 = '#e07a8c'
+gradient_color_4 = '#ffb9b0'
+
+
+# kitty
+[kitty]
+cursor = "#E38CA3"
+foreground = "#F0E3E8"
+background = "#1A1216"
+selection_foreground = "#1A1216"
+selection_background = "#E38CA3"
+[kitty.colors]
+color0 = "#140E11"
+color1 = "#D96C8C"
+color2 = "#BFA7B0"
+color3 = "#E38CA3"
+color4 = "#9B6C7C"
+color5 = "#C58AA0"
+color6 = "#B89CA7"
+color7 = "#F0E3E8"
+color8 = "#2B1E24"
+color9 = "#E38CA3"
+color10 = "#D6C2CB"
+color11 = "#F2B6C8"
+color12 = "#BFA1B2"
+color13 = "#E0A5B9"
+color14 = "#D8C0CA"
+color15 = "#FFF5F8"
+
+
+#waybar
+[waybar.base]
+window_bg = "#1a1416"
+module_bg = "#221a1d"
+module_border = "#3a2a2f"
+
+[waybar.text]
+module_fg = "#f0dfe3"
+muted_fg = "#b8a2a8"
+
+[waybar.workspace]
+wspace_btn_fg = "#a68a92"
+wspace_btn_f_bg = "#c96b7d"
+wspace_btn_f_fg = "#1a1416"
+wspace_btn_hvr_bg = "#3a2a2f"
+wspace_btn_hvr_fg = "#e8cfd4"
+
+[waybar.accent]
+module_hvr = "#2e2327"
+
